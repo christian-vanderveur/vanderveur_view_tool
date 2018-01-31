@@ -6,12 +6,12 @@ require "vanderveur_view_tool/version"
 Gem::Specification.new do |spec|
   spec.name          = "vanderveur_view_tool"
   spec.version       = VanderveurViewTool::VERSION
-  spec.authors       = ["TODO: Write your name"]
+  spec.authors       = ["Christian J Vanderveur"]
   spec.email         = ["christian.vanderveur@gmail.com"]
 
   spec.summary       = %q{Various view specific methods for applications I use}
   spec.description   = %q{provides gernerated HTML data for rails.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/christian-vanderveur/vanderveur_view_tool"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
